@@ -343,3 +343,128 @@ formatter.match({
   ],
   "location": "LoginSteps.user_opens_URL(String)"
 });
+formatter.result({
+  "duration": 61454373300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "demot1@yopmail.com",
+      "offset": 23
+    },
+    {
+      "val": "hasib12345",
+      "offset": 60
+    }
+  ],
+  "location": "LoginSteps.users_enters_Email_as_and_Password_as(String,String)"
+});
+formatter.result({
+  "duration": 537394500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.click_on_Login()"
+});
+formatter.result({
+  "duration": 5128908900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ThisHeart - Enroll Authentication",
+      "offset": 22
+    }
+  ],
+  "location": "LoginSteps.page_title_should_be(String)"
+});
+formatter.result({
+  "duration": 288233500,
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinitions.LoginSteps.page_title_should_be(LoginSteps.java:52)\r\n\tat ✽.Then Page title should be \"ThisHeart - Enroll Authentication\"(Login.feature:16)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "LoginSteps.close_Browser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.uri("ThisHeart.feature");
+formatter.feature({
+  "line": 1,
+  "name": "ThisHeart Login",
+  "description": "",
+  "id": "thisheart-login",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Logo presence in ThisHeart Application Home Page",
+  "description": "",
+  "id": "thisheart-login;logo-presence-in-thisheart-application-home-page",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 2,
+      "name": "@kk"
+    }
+  ]
+});
+formatter.step({
+  "line": 4,
+  "name": "I launch 100 chrome browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "I open thisheart homepage",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "I verify the logo present on the page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 7,
+  "name": "close browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "100",
+      "offset": 9
+    }
+  ],
+  "location": "ThisHeartsteps.i_launch_chrome_browser(int)"
+});
+formatter.result({
+  "duration": 3594477200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ThisHeartsteps.i_open_thisheart_homepage()"
+});
+formatter.result({
+  "duration": 115662573200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ThisHeartsteps.i_verify_the_logo_present_on_the_page()"
+});
+formatter.result({
+  "duration": 173765900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ThisHeartsteps.close_browser()"
+});
+formatter.result({
+  "duration": 1024675700,
+  "status": "passed"
+});
+});

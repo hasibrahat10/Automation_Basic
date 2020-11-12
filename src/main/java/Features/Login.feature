@@ -1,4 +1,6 @@
+@login
 Feature: Login in ThisHeart Application
+  @login-1
   Scenario: Successful login with valid credentials
     Given User Launch Chrome browser
     When User opens URL "https://thisheart.co/login"
@@ -7,7 +9,7 @@ Feature: Login in ThisHeart Application
     Then Page title should be "ThisHeart - Enroll Authentication"
     And Close Browser
 
-
+  @login-2
   Scenario Outline: Login Data Driven
     Given User Launch Chrome browser
     When User opens URL "https://thisheart.co/login"
