@@ -1,23 +1,27 @@
 @login
-Feature: Login in ThisHeart Application
+Feature: Login in with valid credentials
   @login-1
   Scenario: Successful login with valid credentials
     Given User Launch Chrome browser
-    When User opens URL "https://thisheart.co/login"
-    And users enters Email as "demot@yopmail.com" and Password as "hasib12345;;"
+    When User opens URL "https://admin-demo.nopcommerce.com/login"
+    And User enters Email as "admin@yourstore.com" and Password as "admin"
     And Click on Login
-    Then Page title should be "ThisHeart - Enroll Authentication"
+    Then Page Title should be "Dashboard / nopCommerce administration"
+    When User click on Logout link
+    Then Page title should be "Your store. Login"
     And Close Browser
 
   @login-2
   Scenario Outline: Login Data Driven
     Given User Launch Chrome browser
-    When User opens URL "https://thisheart.co/login"
-    And users enters Email as "<username>" and Password as "<password>"
+    When User opens URL "https://admin-demo.nopcommerce.com/login"
+    And users enters Email as "<email>" and Password as "<password>"
     And Click on Login
-    Then Page title should be "ThisHeart - Enroll Authentication"
+    Then Page title should be "Dashboard / nopCommerce administration"
+    When User click on Logout link
+    Then Page title should be "Your store. Login"
     And Close Browser
     Examples:
-      | username | password |
-      | demot@yopmail.com  |  hasib12345;; |
-      | demot1@yopmail.com |  hasib12345   |
+      | email | password |
+      | admin@yourstore.com |  admin |
+      | admin1@yourstore.com |  admin1   |

@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
@@ -12,30 +13,25 @@ public class LoginSteps {
 
     @Given("^User Launch Chrome browser$")
     public void user_Launch_Chrome_browser()  {
-
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/driver/chromedriver.exe");
         driver = new ChromeDriver();
-
         lp =new LoginPage(driver);
-
     }
 
     @When("^User opens URL \"(.*?)\"$")
     public void user_opens_URL(String url)  {
         driver.get(url);
         driver.manage().window().maximize();
-
     }
 
-    @When("^users enters Email as \"(.*?)\" and Password as \"(.*?)\"$")
-    public void users_enters_Email_as_and_Password_as(String username, String password)  {
-        lp.setUserName(username);
+    @When("^User enters Email as \"(.*?)\" and Password as \"(.*?)\"$")
+    public void user_enters_Email_as_and_Password_as(String email, String password)  {
+        lp.setUserName(email);
         lp.setPassWord(password);
-
     }
 
     @When("^Click on Login$")
-    public void click_on_Login()  {
+    public void click_on_Login() {
         lp.clickLogin();
         try {
             Thread.sleep(5000);
@@ -45,9 +41,9 @@ public class LoginSteps {
 
     }
 
-    @Then("^Page title should be \"(.*?)\"$")
-    public void page_title_should_be(String title)  {
-        if(driver.getPageSource().contains("Sorry, that didn’t work. Please try again")){
+    @Then("^Page Title should be \"(.*?)\"$")
+    public void page_Title_should_be(String title) {
+        if(driver.getPageSource().contains("Login was unsuccessful.")){
             driver.close();
             Assert.assertTrue(false);
         }else{
@@ -60,9 +56,20 @@ public class LoginSteps {
         }
     }
 
+    @When("^User click on Logout link$")
+    public void user_click_on_Logout_link()  {
+        lp.clickLogOut();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     @Then("^Close Browser$")
-    public void close_Browser()  {
+    public void close_Browser() {
         driver.quit();
     }
+
 }

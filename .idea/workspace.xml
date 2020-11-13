@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="710fbf9e-bef5-4ee1-b98a-f74ba467a737" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testRunner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stepDefinitions/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stepDefinitions/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testRunner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testRunner/TestRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
     </list>
@@ -40,6 +45,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Drivers" />
@@ -54,7 +60,7 @@
       <recent name="F:\Automation_Basic\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="Cucumber java.Scenario: Successful login with valid credentials">
     <configuration name="Feature: ThisHeart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Features/ThisHeart.feature" />
@@ -108,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Scenario: Successful login with valid credentials" />
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Feature: ThisHeart" />
       </list>
     </recent_temporary>
@@ -127,6 +133,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605162616975">
       <screen x="0" y="0" width="1366" height="728" />
@@ -140,21 +149,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605165246973" />
-    <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1605183800518">
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1605261251447">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605183800518" />
-    <state width="1323" height="215" key="GridCell.Tab.0.center" timestamp="1605183800518">
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605261251447" />
+    <state width="1323" height="215" key="GridCell.Tab.0.center" timestamp="1605261251447">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605183800518" />
-    <state width="1323" height="215" key="GridCell.Tab.0.left" timestamp="1605183800510">
+    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605261251447" />
+    <state width="1323" height="215" key="GridCell.Tab.0.left" timestamp="1605261251447">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605183800510" />
-    <state width="1323" height="215" key="GridCell.Tab.0.right" timestamp="1605183800518">
+    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605261251447" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right" timestamp="1605261251447">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605183800518" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605261251447" />
   </component>
 </project>
