@@ -5,7 +5,12 @@ import cucumber.api.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
+import org.openqa.selenium.chrome.ChromeOptions;
 import pageObjects.LoginPage;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class LoginSteps {
     public WebDriver driver;
@@ -13,8 +18,12 @@ public class LoginSteps {
 
     @Given("^User Launch Chrome browser$")
     public void user_Launch_Chrome_browser()  {
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/driver/chromedriver.exe");
-        driver = new ChromeDriver();
+        System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY, System.getProperty("user.dir")+"/driver/chromedriver.exe");
+        System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
+        Logger.getLogger("org.openqa.selenium").setLevel(Level.OFF);
+        ChromeOptions options = new ChromeOptions();
+        options.setHeadless(true);
+        driver = new ChromeDriver(options);
         lp =new LoginPage(driver);
     }
 

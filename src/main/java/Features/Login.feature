@@ -8,20 +8,20 @@ Feature: Login in with valid credentials
     And Click on Login
     Then Page Title should be "Dashboard / nopCommerce administration"
     When User click on Logout link
-    Then Page title should be "Your store. Login"
+    Then Page Title should be "Your store. Login"
     And Close Browser
 
   @login-2
   Scenario Outline: Login Data Driven
     Given User Launch Chrome browser
     When User opens URL "https://admin-demo.nopcommerce.com/login"
-    And users enters Email as "<email>" and Password as "<password>"
+    And User enters Email as "<email>" and Password as "<password>"
     And Click on Login
-    Then Page title should be "Dashboard / nopCommerce administration"
+    Then Page Title should be "Dashboard / nopCommerce administration"
     When User click on Logout link
-    Then Page title should be "Your store. Login"
+    Then Page Title should be "Your store. Login"
     And Close Browser
     Examples:
-      | email | password |
-      | admin@yourstore.com |  admin |
-      | admin1@yourstore.com |  admin1   |
+      | email                 | password  |
+      | admin@yourstore.com   |  admin    |
+      | admin1@yourstore.com  |  admin1   |
