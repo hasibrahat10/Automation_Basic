@@ -12,9 +12,8 @@ import pageObjects.LoginPage;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class LoginSteps {
-    public WebDriver driver;
-    public LoginPage lp;
+public class LoginSteps extends BaseClass {
+
 
     @Given("^User Launch Chrome browser$")
     public void user_Launch_Chrome_browser()  {
@@ -22,7 +21,7 @@ public class LoginSteps {
         System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
         Logger.getLogger("org.openqa.selenium").setLevel(Level.OFF);
         ChromeOptions options = new ChromeOptions();
-        options.setHeadless(true);
+        options.setHeadless(false);
         driver = new ChromeDriver(options);
         lp =new LoginPage(driver);
     }
@@ -80,5 +79,47 @@ public class LoginSteps {
     public void close_Browser() {
         driver.quit();
     }
+
+    //Customer Feature Step Definitions
+
+    @Then("^User can view Dashboard$")
+    public void user_can_view_Dashboard() throws Throwable {
+
+    }
+
+    @When("^User click on customers Menu$")
+    public void user_click_on_customers_Menu() throws Throwable {
+
+    }
+
+    @When("^click on customers Menu Item$")
+    public void click_on_customers_Menu_Item() throws Throwable {
+
+    }
+
+    @When("^click on Add new button$")
+    public void click_on_Add_new_button() throws Throwable {
+    }
+
+    @Then("^User can view Add new customer page$")
+    public void user_can_view_Add_new_customer_page() throws Throwable {
+
+    }
+
+    @When("^User enter customer info$")
+    public void user_enter_customer_info() throws Throwable {
+
+    }
+
+    @When("^click on Save button$")
+    public void click_on_Save_button() throws Throwable {
+
+    }
+
+    @Then("^User can view confirmation message \"(.*?)\"$")
+    public void user_can_view_confirmation_message(String arg1) throws Throwable {
+
+    }
+
 
 }

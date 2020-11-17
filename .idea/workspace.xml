@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="710fbf9e-bef5-4ee1-b98a-f74ba467a737" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Features/Customers.Feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AddCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/LoginPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,15 +50,15 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Automation_Basic\src\main\java" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Automation_Basic\Drivers" />
       <recent name="F:\Automation_Basic\src\main\java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Automation_Basic\src\main\java" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="Cucumber java.Scenario: Add a new Customer">
     <configuration name="Feature: ThisHeart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Features/ThisHeart.feature" />
@@ -68,6 +70,25 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Add a new Customer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/Customers.Feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Automation_Basic" />
+      <option name="NAME_FILTER" value="^Add a new Customer$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Add a new Customer$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add a new Customer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Add a new Customer" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Scenario: Successful login with valid credentials" />
         <item itemvalue="Cucumber java.Feature: ThisHeart" />
@@ -145,21 +167,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605165246973" />
-    <state width="1323" height="314" key="GridCell.Tab.0.bottom" timestamp="1605511085837">
+    <state width="1323" height="314" key="GridCell.Tab.0.bottom" timestamp="1605535803061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="314" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605511085837" />
-    <state width="1323" height="314" key="GridCell.Tab.0.center" timestamp="1605511085837">
+    <state width="1323" height="314" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605535803061" />
+    <state width="1323" height="314" key="GridCell.Tab.0.center" timestamp="1605535803061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="314" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605511085837" />
-    <state width="1323" height="314" key="GridCell.Tab.0.left" timestamp="1605511085836">
+    <state width="1323" height="314" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605535803061" />
+    <state width="1323" height="314" key="GridCell.Tab.0.left" timestamp="1605535803061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="314" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605511085836" />
-    <state width="1323" height="314" key="GridCell.Tab.0.right" timestamp="1605511085837">
+    <state width="1323" height="314" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605535803061" />
+    <state width="1323" height="314" key="GridCell.Tab.0.right" timestamp="1605535803061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="314" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605511085837" />
+    <state width="1323" height="314" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605535803061" />
+    <state x="426" y="38" key="Maven.ArtifactSearchDialog" timestamp="1605612259637">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="426" y="38" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1605612259637" />
+    <state x="324" y="285" key="run.anything.popup" timestamp="1605599436154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="324" y="285" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605599436154" />
+    <state x="331" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605599434683">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="331" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605599434683" />
   </component>
 </project>
