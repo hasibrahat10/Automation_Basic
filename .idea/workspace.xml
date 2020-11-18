@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="710fbf9e-bef5-4ee1-b98a-f74ba467a737" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Features/Customers.Feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AddCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/LoginPage.class" afterDir="false" />
-    </list>
+    <list default="true" id="710fbf9e-bef5-4ee1-b98a-f74ba467a737" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,22 +158,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605165246973" />
-    <state width="1323" height="314" key="GridCell.Tab.0.bottom" timestamp="1605535803061">
+    <state width="1323" height="314" key="GridCell.Tab.0.bottom" timestamp="1605614095267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="314" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605535803061" />
-    <state width="1323" height="314" key="GridCell.Tab.0.center" timestamp="1605535803061">
+    <state width="1323" height="314" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605614095267" />
+    <state width="1323" height="314" key="GridCell.Tab.0.center" timestamp="1605614095267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="314" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605535803061" />
-    <state width="1323" height="314" key="GridCell.Tab.0.left" timestamp="1605535803061">
+    <state width="1323" height="314" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605614095267" />
+    <state width="1323" height="314" key="GridCell.Tab.0.left" timestamp="1605614095267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="314" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605535803061" />
-    <state width="1323" height="314" key="GridCell.Tab.0.right" timestamp="1605535803061">
+    <state width="1323" height="314" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605614095267" />
+    <state width="1323" height="314" key="GridCell.Tab.0.right" timestamp="1605614095267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="314" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605535803061" />
+    <state width="1323" height="314" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605614095267" />
     <state x="426" y="38" key="Maven.ArtifactSearchDialog" timestamp="1605612259637">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
